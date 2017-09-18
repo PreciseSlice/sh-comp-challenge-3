@@ -10,6 +10,10 @@ body {
     width: 100%;
 }
 
+.fa {
+	width: 15px;
+}
+
 .left-side {
  	background-color: #364153;
     height: auto;
@@ -100,6 +104,8 @@ body {
 	margin-left: 8px;
 }
 
+/* main nav */
+
 .main-nav {
 	border-bottom: 1px solid black;
 	height: 300px;
@@ -111,8 +117,9 @@ body {
 	margin: 35px 0 10px 0;
 }
 
-.main-nav h4 {
+.main-nav h5 {
 	margin: 15px; 
+	padding-top: 3px;
 }
 
 .nav-home {
@@ -136,6 +143,53 @@ body {
 }
 
 .nav-calender {
+	align-items: center;
+	display: flex;
+}
+
+/*admin nav*/
+
+.admin-nav {
+	border-bottom: 1px solid black;
+	height: 300px;
+	color: #8590A2;
+	padding-left: 20px;
+}
+
+.admin-nav p {
+	margin: 35px 0 10px 0;
+}
+
+.admin-nav h5 {
+	margin: 15px;
+	padding-top: 3px; 
+}
+
+.nav-users {
+	align-items: center;
+	display: flex;
+}
+
+.nav-locations {
+	align-items: center;
+	display: flex;	
+}
+
+.fa-map-marker:before {
+    margin-left: 3px;
+}
+
+.nav-work-flow {
+	align-items: center;
+	display: flex;
+}
+
+.nav-job-boards {
+	align-items: center;
+	display: flex;
+}
+
+.nav-social {
 	align-items: center;
 	display: flex;
 }
