@@ -3,7 +3,9 @@ html {
 }
 
 body {
+	box-sizing: border-box;
     display: flex;
+    font-family: 'Open Sans', sans-serif;
 	min-height: 100%;
     width: 100%;
 }
@@ -64,3 +66,78 @@ body {
     margin-left: auto;
 	width: 35.5%;
 }
+
+.first-sidebar{
+	align-items: center;
+	border: 1px solid black;
+	height: 200px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mugshot {
+	background: url("images/mug-shot.jpg") no-repeat;
+	background-position: center;
+	background-size: cover; 
+	border-radius: 100%;
+	height: 75px;
+	width: 75px;
+}
+
+.name-dropdown {
+	display: inline-flex;
+	align-items: center;
+}
+
+.name-dropdown p {
+	color: #8590A2;
+	font-size: .8em;
+}
+
+.name-dropdown i {
+	color: #8590A2;
+	margin-left: 8px;
+}
+
+.main-nav {
+	border-bottom: 1px solid black;
+	height: 300px;
+	color: #8590A2;
+	padding-left: 20px;
+}
+
+.main-nav p {
+	margin: 35px 0 10px 0;
+}
+
+.main-nav h4 {
+	margin: 15px; 
+}
+
+.nav-home {
+	align-items: center;
+	display: flex;
+}
+
+.nav-jobs {
+	align-items: center;
+	display: flex;	
+}
+
+.nav-resumes {
+	align-items: center;
+	display: flex;
+}
+
+.nav-tasks {
+	align-items: center;
+	display: flex;
+}
+
+.nav-calender {
+	align-items: center;
+	display: flex;
+}
+
+/* pullout for side bar on mobile */
