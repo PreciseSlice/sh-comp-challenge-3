@@ -33,9 +33,10 @@ body {
 	background-color: #FFFFFF;
 	border-bottom: 1px solid grey;
 	height: 90px;
+	display: flex;
 }
 
-.top2 {
+.header-middle {
 	background-color: #FFFFFF;
 	border-bottom: 1px solid grey;
 	height: 140px;
@@ -74,9 +75,9 @@ body {
 .first-sidebar{
 	align-items: center;
 	border: 1px solid black;
-	height: 200px;
 	display: flex;
     flex-direction: column;
+	height: 200px;
     justify-content: center;
 }
 
@@ -85,18 +86,18 @@ body {
 	background-position: center;
 	background-size: cover; 
 	border-radius: 100%;
-	height: 75px;
-	width: 75px;
+	height: 85px;
+	width: 85px;
 }
 
 .name-dropdown {
-	display: inline-flex;
 	align-items: center;
+	display: inline-flex;
 }
 
 .name-dropdown p {
 	color: #8590A2;
-	font-size: .8em;
+	font-size: 1em;
 }
 
 .name-dropdown i {
@@ -104,12 +105,12 @@ body {
 	margin-left: 8px;
 }
 
-/* main nav */
+/* left side of page main nav */
 
 .main-nav {
 	border-bottom: 1px solid black;
-	height: 300px;
 	color: #8590A2;
+	height: 300px;
 	padding-left: 20px;
 }
 
@@ -147,12 +148,12 @@ body {
 	display: flex;
 }
 
-/*admin nav*/
+/* admin nav left side of page */
 
 .admin-nav {
 	border-bottom: 1px solid black;
-	height: 300px;
 	color: #8590A2;
+	height: 300px;
 	padding-left: 20px;
 }
 
@@ -193,5 +194,100 @@ body {
 	align-items: center;
 	display: flex;
 }
+
+/* Catagories Nav left side of page */
+
+.catagories-nav {
+	color: #8590A2;
+	padding-left: 20px;
+}
+
+.catagories-nav p {
+	margin: 35px 0 10px 0;
+}
+
+.catagories-nav h5 {
+	margin: 15px;
+	padding-top: 3px; 
+}
+
+.nav-administrative {
+	align-items: center;
+	display: flex;
+}
+
+.nav-administrative i {
+	color: #FFD708;
+}
+
+.nav-design {
+	align-items: center;
+	display: flex;	
+}
+
+.nav-design i {
+	color: #2AB0FB;
+}
+
+.nav-executive {
+	align-items: center;
+	display: flex;
+}
+
+.nav-executive i {
+	color: #EC1A61;
+}
+
+.nav-human-resources {
+	align-items: center;
+	display: flex;
+}
+
+.nav-human-resources i {
+	color: #07A98A;
+}
+
+/* Ride side top search bar */
+
+.top {
+
+}
+
+.left-burger {
+	background-color: #FFFFFF;
+	width: 90px;
+}
+
+.left-burger i {
+	color: #939BA1;
+}
+
+.search-bar {
+	background-color: orange;
+	width: 900px;
+}
+
+.add-person {
+	background-color: yellow;
+	width: 90px;
+}
+
+.add-date {
+	background-color: green;
+	width: 90px;
+}
+
+.dot-matrix {
+	background-color: blue;
+	width: 90px;
+}
+
+
+
+
+
+
+
+
 
 /* pullout for side bar on mobile */
