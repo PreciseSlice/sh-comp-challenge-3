@@ -38,7 +38,6 @@ body {
 
 .header-middle {
 	background-color: #FFFFFF;
-	border-bottom: 3px solid #F4F4F6;
 	display: flex;
 	height: 140px;
 }
@@ -46,24 +45,27 @@ body {
 .nav-bar {
 	background-color: #FFFFFF;
 	border-bottom: 3px solid #F4F4F6;
+	color: #959AA0;
+	display: flex;
 	height: 90px;
 }
 
 .middle {
 	background-color: #EDF2F6;
-	border-bottom: 3px solid #F4F4F6;
-	height: 375px;
+	border-bottom: 3px solid #D6D8D9;
+	display: flex;
+	height: 320px;
+	margin: 20px 0 0 40px;
 }
 
 .bottom {
-	background-color: pink;
 	display: flex;
 	height: 1000px;
 	margin: 50px;
 }
 
 .left-bottom-box {
-	background-color: teal;
+	background-color: white;
 	width: 60%;
 }
 
@@ -96,6 +98,18 @@ body {
 	display: inline-flex;
 }
 
+.name-dropdown:hover {
+	background-color: #30394A;
+}
+
+.name-dropdown:hover p {
+	color: white;
+}
+
+.name-dropdown:hover i {
+	color: white;
+}
+
 .name-dropdown p {
 	color: #8590A2;
 	font-size: 1em;
@@ -112,11 +126,11 @@ body {
 	border-bottom: 3px solid #2D384A;
 	color: #8590A2;
 	height: 300px;
-	padding-left: 20px;
 }
 
 .main-nav p {
 	margin: 35px 0 10px 0;
+	padding-left: 20px;
 }
 
 .main-nav h5 {
@@ -127,27 +141,58 @@ body {
 .nav-home {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-home:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-jobs {
 	align-items: center;
-	display: flex;	
+	display: flex;
+	padding-left: 20px;	
+}
+
+.nav-jobs:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-resumes {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-resumes:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-tasks {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-tasks:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-calender {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
 }
+
+.nav-calender:hover {
+	background-color: #30394A;
+	color: white;
+}
+
 
 /* admin nav left side of page */
 
@@ -155,11 +200,11 @@ body {
 	border-bottom: 3px solid #2D384A;
 	color: #8590A2;
 	height: 300px;
-	padding-left: 20px;
 }
 
 .admin-nav p {
 	margin: 35px 0 10px 0;
+	padding-left: 20px;
 }
 
 .admin-nav h5 {
@@ -170,11 +215,23 @@ body {
 .nav-users {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-users:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-locations {
 	align-items: center;
 	display: flex;	
+	padding-left: 20px;
+}
+
+.nav-locations:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .fa-map-marker:before {
@@ -184,27 +241,45 @@ body {
 .nav-work-flow {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-work-flow:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-job-boards {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-job-boards:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-social {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-social:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 /* Catagories Nav left side of page */
 
 .catagories-nav {
 	color: #8590A2;
-	padding-left: 20px;
 }
 
 .catagories-nav p {
 	margin: 35px 0 10px 0;
+	padding-left: 20px;
 }
 
 .catagories-nav h5 {
@@ -215,6 +290,12 @@ body {
 .nav-administrative {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-administrative:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-administrative i {
@@ -224,6 +305,12 @@ body {
 .nav-design {
 	align-items: center;
 	display: flex;	
+	padding-left: 20px;
+}
+
+.nav-design:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-design i {
@@ -233,6 +320,12 @@ body {
 .nav-executive {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-executive:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-executive i {
@@ -242,6 +335,12 @@ body {
 .nav-human-resources {
 	align-items: center;
 	display: flex;
+	padding-left: 20px;
+}
+
+.nav-human-resources:hover {
+	background-color: #30394A;
+	color: white;
 }
 
 .nav-human-resources i {
@@ -467,6 +566,153 @@ body {
 	font-size: .9em;
 }
 
+/* nav bar, right side bottom of header */
+
+.nav-bar h2 {
+	font-size: .8em;
+	font-weight: bolder;
+}
+
+.summary:hover {
+	border-bottom: 4px solid #4CB5EC; 
+	color: #6F6E73;
+}
+
+.applications:hover {
+	border-bottom: 4px solid #4CB5EC; 
+	color: #6F6E73;
+}
+
+.job-board:hover {
+	border-bottom: 4px solid #4CB5EC; 
+	color: #6F6E73;
+}
+
+.interviews:hover {
+	border-bottom: 4px solid #4CB5EC; 
+	color: #6F6E73;
+}
+
+.activity:hover {
+	border-bottom: 4px solid #4CB5EC; 
+	color: #6F6E73;
+}
+
+.broadcast:hover {
+	border-bottom: 4px solid #4CB5EC; 
+	color: #6F6E73;
+}
+
+.notifications:hover {
+	border-bottom: 4px solid #4CB5EC; 
+	color: #6F6E73;
+}
+
+.nav-bar div {
+	margin: 40px 0 0 48px;
+}
+
+/* right side middle of page  */
+
+.middle-left {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 45%; 
+}
+
+.pie-container {
+	background: url("images/progress-circle.png") no-repeat;
+	background-position: center;
+    background-size: cover;
+	margin-bottom: 4%;
+	height: 70%;
+}
+
+.totals-capsule {
+	align-self: center;
+	align-items: center;
+	background-color: white;
+	border: 2px solid #D6D8D9;
+	border-radius:10%/60%;
+	display: flex;
+	justify-content: center;
+	height: 8%;
+	width: 41%;
+}
+
+.totals-capsule h3 {
+	color: #6F6E73;
+	font-size: .7em;
+}
+
+.middle-right {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 50px;
+	width: 50%; 
+}
+
+.bar-container {
+	background: url("images/graph.png") no-repeat;
+	background-position: center;
+    background-size: cover;
+	margin-bottom: 4%;
+	height: 70%;
+}
+
+.app-capsule {
+	align-self: center;
+	align-items: center;
+	background-color: white;
+	border: 2px solid #D6D8D9;
+	border-radius:10%/60%;
+	display: flex;
+	justify-content: center;
+	height: 8%;
+	width: 41%;
+}
+
+.app-capsule h3 {
+	color: #6F6E73;
+	font-size: .7em;
+}
+
+/* right side of page middle box*/
+
+.left-bottom-box h2 {
+	color: #6F7E95;
+	font-size: 1em;
+}
+
+.job-description {
+	align-items: center;
+	background-color: #6F7E95;
+	display: flex;
+	height: 10%;
+	padding-left: 40px; 
+}
+
+.job-description h2 {
+	color: white;
+}
+
+.same-size {
+	align-items: center;
+	border-bottom: 1px solid #D6D8D9;
+	display: flex;
+	height: 10%;
+	padding-left: 40px; 
+}
+
+.discription {
+	align-items: center;
+	border-bottom: 1px solid #D6D8D9;
+	display: flex;
+	height: 20%;
+	padding-left: 40px; 
+}
 
 
 
@@ -474,17 +720,3 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* pullout for side bar on mobile */
