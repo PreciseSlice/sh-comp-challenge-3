@@ -745,6 +745,29 @@ body {
 	}
 }
 
+/* bottom right of page */
+
+	.social-media {
+		border-bottom: 1px solid grey;
+		height: 25%;
+	}
+
+	.job-link {
+		border-bottom: 1px solid grey;
+		height: 25%;
+	}
+
+	.button-widget {
+		border-bottom: 1px solid grey;
+		height: 24%;
+	}
+
+	.upload-resume {
+		height: 25%;
+	}
+
+/* media */
+
 @media (max-width: 700px) {
 
 	body {
@@ -785,9 +808,9 @@ body {
 	.top {
 		align-items: center;
 		display: flex;
-		justify-content: space-around;
 		flex-direction: column;
 		height: 500px;
+		justify-content: space-around;
 		width: 100%;		
 	}
 
@@ -802,8 +825,8 @@ body {
     }
 
     .right-header-middle {
-    	display: flex;
     	align-items: center;
+    	display: flex;
     	height: 65%;
     	width: 100%;
     }
@@ -816,18 +839,18 @@ body {
     .nav-bar {
     	align-items: center;
     	display: flex;
-    	justify-content: center;
     	flex-direction: column;
     	height: 100%;
+    	justify-content: center;
     	width:100%;
     }
 
 	.header-middle {
 		align-items: center;
 		display: flex;
-		justify-content: space-around;
 		flex-direction: column;
 		height: 500px;
+		justify-content: space-around;
 		width: 100%;
 	}
 
@@ -841,4 +864,3 @@ body {
 	}
 
 }
-
