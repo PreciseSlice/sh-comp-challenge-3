@@ -31,26 +31,27 @@ body {
 
 .top {
 	background-color: #FFFFFF;
-	border-bottom: 1px solid grey;
+	border-bottom: 3px solid #F4F4F6;
 	height: 90px;
 	display: flex;
 }
 
 .header-middle {
 	background-color: #FFFFFF;
-	border-bottom: 1px solid grey;
+	border-bottom: 3px solid #F4F4F6;
+	display: flex;
 	height: 140px;
 }
 
 .nav-bar {
 	background-color: #FFFFFF;
-	border-bottom: 1px solid grey;
+	border-bottom: 3px solid #F4F4F6;
 	height: 90px;
 }
 
 .middle {
 	background-color: #EDF2F6;
-	border-bottom: 1px solid grey;
+	border-bottom: 3px solid #F4F4F6;
 	height: 375px;
 }
 
@@ -74,7 +75,7 @@ body {
 
 .first-sidebar{
 	align-items: center;
-	border: 1px solid black;
+	border-bottom: 3px solid #2D384A;
 	display: flex;
     flex-direction: column;
 	height: 200px;
@@ -108,7 +109,7 @@ body {
 /* left side of page main nav */
 
 .main-nav {
-	border-bottom: 1px solid black;
+	border-bottom: 3px solid #2D384A;
 	color: #8590A2;
 	height: 300px;
 	padding-left: 20px;
@@ -151,7 +152,7 @@ body {
 /* admin nav left side of page */
 
 .admin-nav {
-	border-bottom: 1px solid black;
+	border-bottom: 3px solid #2D384A;
 	color: #8590A2;
 	height: 300px;
 	padding-left: 20px;
@@ -249,38 +250,234 @@ body {
 
 /* Ride side top search bar */
 
-.top {
-
-}
-
-.left-burger {
-	background-color: #FFFFFF;
-	width: 90px;
-}
-
-.left-burger i {
+.top i {
 	color: #939BA1;
 }
 
+.left-burger {
+    align-items: center;
+    border-right: 1px solid #F4F4F6;
+	display: flex;
+    justify-content: center;
+	width: 90px;
+}
+
+.left-burger:hover {
+	background-color: #17A3F9;
+}
+
+.left-burger:hover i{
+	color: white;
+}
+
 .search-bar {
-	background-color: orange;
+	align-items: center;
+	border-right: 1px solid #F4F4F6; 
+	display: flex;
 	width: 900px;
+	padding-left: 30px;
+}
+
+.search-bar input {
+	border: none;
+	margin-left: 20px;
+    padding: 10px 10px 10px 0;
+	width: 100%;
 }
 
 .add-person {
-	background-color: yellow;
+	align-items: center;
+	border-right: 1px solid #F4F4F6; 	
+	display: flex;
+    justify-content: center;
 	width: 90px;
+}
+
+.add-person:hover {
+	background-color: #17A3F9;
+}
+
+.add-person:hover i{
+	color: white;
 }
 
 .add-date {
-	background-color: green;
+	align-items: center;
+	border-right: 1px solid #F4F4F6; 
+	display: flex;	
+	justify-content: center;
 	width: 90px;
 }
 
-.dot-matrix {
-	background-color: blue;
-	width: 90px;
+.add-date:hover {
+	background-color: #17A3F9;
 }
+
+.add-date:hover i{
+	color: white;
+}
+
+.dot-matrix {
+	align-items: center;
+	width: 90px;
+	display: flex;	
+	justify-content: center;
+}
+
+.dot-matrix:hover {
+	background-color: #17A3F9;
+}
+
+.dot-matrix:hover i{
+	color: white;
+}
+
+/* header middle */
+
+.left-header-middle {
+	display: flex;
+	width: 70%;
+	justify-content: center;
+    flex-direction: column;
+}
+
+.left-header-middle i{
+	color: #8C8F98;
+}
+
+.left-header-middle h2{
+	color: #6F6E73;
+	margin: 0 0 0 50px; 
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+.map-marker {
+    align-items: center;
+	display: flex;
+    padding: 0 0 0 50px;
+}
+
+.map-marker i {
+	font-size: 1.2em;
+}
+
+.map-marker a {
+	color: #17A3F9;
+	text-decoration: none;
+	font-size: .8em;
+}
+
+.map-marker p {
+	padding-left: 10px;
+	color: #8C8F98;
+	font-size: .8em;
+	font-weight:; 100;
+}
+
+#dot {
+	font-size: 4px;
+	padding-left: 10px; 
+}
+
+/* right part of header middle */
+
+.right-header-middle {
+	width: 30%;
+	display: flex;
+	align-items: center;
+}
+
+.right-header-middle p {
+	margin: 0;
+}
+
+.right-header-middle i{
+	color: #8C8F98;
+}
+
+
+.open-container {
+	display: flex;
+	height: 35px;
+	width: 100%;
+}
+
+.open {
+	align-items: center;
+	border: 3px solid #E6E6E8;
+	border-radius: 20%/60%;
+	display: flex;
+	justify-content: center;
+	margin: 0 15px 0 55px;
+	width: 80px;
+}
+
+.open h2 {
+	color: #6F6E73;
+	font-size: .7em;
+}
+
+.open i {
+	color: #88C43D;
+	font-size: .7em;
+}
+
+.ribbon {
+	align-items: center;
+	border: 3px solid #E6E6E8;
+	border-radius: 100%; 
+	display: flex;
+	justify-content: center;
+	margin-right: 15px;
+	width: 30px;
+}
+
+.ribbon i {
+	width: auto;
+	font-size: .9em;
+}
+
+.pencil {
+	align-items: center;
+	border: 3px solid #E6E6E8;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	margin-right: 15px;
+	width: 30px;
+}
+
+.pencil i {
+	width: auto;
+	font-size: .9em;
+}
+
+.phone-booth {
+	align-items: center;
+	border: 3px solid #E6E6E8;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	width: 30px;
+}
+
+.phone-booth i {
+	width: auto;
+	font-size: .9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
