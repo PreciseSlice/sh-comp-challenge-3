@@ -357,7 +357,7 @@ body {
 	color: #939BA1;
 }
 
-.left-burger {
+.left-search-bar-burger {
     align-items: center;
     border-right: 1px solid #F4F4F6;
 	display: flex;
@@ -365,11 +365,11 @@ body {
 	width: 90px;
 }
 
-.left-burger:hover {
+.left-search-bar-burger:hover {
 	background-color: #17A3F9;
 }
 
-.left-burger:hover i{
+.eft-search-bar-burger:hover i{
 	color: white;
 }
 
@@ -625,11 +625,67 @@ body {
 }
 
 .pie-container {
-	background: url("images/progress-circle.png") no-repeat;
-	background-position: center;
-    background-size: cover;
+	align-items: center;
+	background-color: #EEF2F6;
+	display: flex;
+	justify-content: space-around;
 	margin-bottom: 4%;
-	height: 70%;
+	height: 72%;
+}
+
+.pie-container h1 {
+	color: #6F6E73;
+	margin: 0;
+}
+
+.pie-container h3 {
+	font-size: .9em;
+    margin: 8px 0 0 0;
+} 
+
+.circle-one {
+    align-items: center;
+  	background-color: #EEF2F6;
+  	border-bottom: solid 10px #66B1BF;
+  	border-left: solid 10px #66B1BF;
+  	border-radius: 50%;
+  	border-right: solid 10px #DCE5EA;
+  	border-top: solid 10px #66B1BF;
+	display: flex;
+    flex-direction: column;
+  	height: 138px;
+    justify-content: center;
+  	width: 138px;
+}
+
+.circle-two {
+    align-items: center;
+	background-color: #EEF2F6;
+  	border-bottom: solid 10px #469FF8;
+  	border-left: solid 10px #469FF8;
+  	border-radius: 50%;
+  	border-right: solid 10px #DCE5EA;
+	border-top: solid 10px #DCE5EA;
+	display: flex;
+    flex-direction: column;
+  	height: 138px;
+    justify-content: center;
+  	width: 138px;
+}
+
+.circle-three {
+    align-items: center;
+	background-color: #EEF2F6;
+  	border-bottom: solid 10px #DCE5EA;
+  	border-left: solid 10px #AA6CAC;
+  	border-radius: 50%;
+  	border-right: solid 10px #DCE5EA;
+	border-top: solid 10px #DCE5EA;
+	display: flex;
+    flex-direction: column;
+  	height: 138px;
+    justify-content: center;
+  	width: 138px;
 }
 
 .totals-capsule {
@@ -662,7 +718,7 @@ body {
 	background-position: center;
     background-size: cover;
 	margin-bottom: 4%;
-	height: 70%;
+	height: 72%;
 }
 
 .app-capsule {
@@ -1045,7 +1101,6 @@ body {
 	}
 
 }
-
 
 @media (max-width: 600px) {
  	
