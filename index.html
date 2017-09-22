@@ -3,7 +3,6 @@
 
 <head>
 	<title>static comp 3</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<!-- normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css -->
 	<link rel="stylesheet" type="text/css" href="font-awesome.css">
@@ -11,6 +10,7 @@
    		 License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -19,11 +19,30 @@
 
 	<section class="left-side">
 		<div class="first-sidebar">
-			<div class="mugshot"></div>
-			<div class="name-dropdown">
-				<p>Fig Newton</p> 
-				<i class="fa fa-chevron-down" aria-hidden="true"></i> 
-			</div>
+			<section class="mobile">
+				<div class="mobile-main">
+					<button>Main</button>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i> 
+				</div>
+				
+				<div class="mobile-admin">
+					<button>Admin</button>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i> 
+				</div>
+				
+				<div class="mobile-categories">
+					<button>Categories</button>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i> 
+				</div>
+			</section>
+
+			<section class="mobile-mugshot">
+				<div class="mugshot"></div>
+				<div class="name-dropdown">
+					<p>Fig Newton</p> 
+					<i class="fa fa-chevron-down" aria-hidden="true"></i> 
+				</div>
+			</section>
 		</div>
 	
 		<section class="main-nav">
@@ -85,7 +104,7 @@
 		</section>
 
 		<section class="catagories-nav">
-			<p>Admin</p>
+			<p>Categories</p>
 				
 			<div class="nav-administrative">
 				<i class="fa fa-check-square-o" aria-hidden="true"></i>
@@ -107,7 +126,6 @@
 				<h5>Human Resources</h5>
 			</div>
 		</section>
-
 	</section>
 
 <!-- right Side of page -->
@@ -266,7 +284,7 @@
 				
 				<div class="job-description">
 					<div class="bottom-box-align">
-					<h2 class="push-right">JOB DESCRIPTION</h2>
+						<h2 class="push-right">JOB DESCRIPTION</h2>
 						<div class="edit-container">
 							<i class="fa fa-pencil" aria-hidden="true"></i>
 							<h3>EDIT</h3>
@@ -391,12 +409,8 @@
 					</div>
 
 				</div>
-
 			</section>
 		</footer>
-
 	</section>
-
 </body>
-
 </html>
