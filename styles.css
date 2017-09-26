@@ -927,6 +927,8 @@ body {
 	}
 
 	.job-link p {
+		font-size: .8em;
+    	line-height: normal;
 		margin: 0 0 25px 0;
 	}
 
@@ -952,6 +954,8 @@ body {
 	}	
 
 	.button-widget p {
+		font-size: .8em;
+    	line-height: normal;
 		margin: 0 0 25px 0;
 	}
 
@@ -977,13 +981,15 @@ body {
 	}	
 
 	.upload-resume p {
+    	font-size: .8em;
+    	line-height: normal;
 		margin: 0 0 25px 0;
 	}
 
 	.upload-resume input {
 		margin: 0;
 		padding: 10px;
-		width: 73%;
+		width: 92%;
 	}
 
 	.upload-resume button {
@@ -1011,13 +1017,37 @@ body {
 
 /* media */
 
-@media (max-width: 1100px) {
+@media (max-width: 1398px) {
+
+	.job-link input {
+		width: 70%;
+	}
+	
+	.button-widget input {
+		width: 70%;
+	}
+}
+
+@media (max-width: 1270px) {
+
+	.job-link input {
+		width: 65%;
+	}
+	
+	.button-widget input {
+		width: 65%;
+	}
+}
+
+
+@media (max-width: 1106px) {
 
 	.left-side {
 		width: 20%;
 	}
 
 	.right-side { 
+	 	height: 3424px;
 	 	width: 80%;
 	}
 
@@ -1050,15 +1080,81 @@ body {
 		width: 100%;
 	}
 
+
+	.left-header-middle {
+    	width: 50%;
+	}
+
 	.right-bottom-box {
 		height: 100%;
 		width: 100%;
 	}
 
-	.left-header-middle {
-    	width: 50%;
+	.fb {
+		margin-top: 50px;
+	}
+
+	.job-link input {
+		width: 89%;
+	}
+
+	.job-link {
+		margin-top: 10%;
+	}
+	
+	.button-widget input {
+		width: 89%;
+	}
+
+	.upload-resume input {
+		width: 96.5%;
+	}
+
+	.job-link {
+		height: 21%;
+	}
+
+	.button-widget {
+		height: 21%;
+	}
+
+	.upload-resume {
+		height: 21%;
+	}
+
+}
+
+@media (max-width: 1072px) {
+	
+	.job-link input {
+		width: 88%;
+	}
+	
+	.button-widget input {
+		width: 88%;
 	}
 }
+
+@media (max-width: 993px) {
+
+	.job-link input {
+		width: 87%;
+	}
+	
+	.button-widget input {
+		width: 87%;
+	}
+
+@media (max-width: 926px) {
+
+	.job-link input {
+		width: 86%;
+	}
+	
+	.button-widget input {
+		width: 86%;
+	}
+
 
 @media (max-width: 900px) {
 
@@ -1273,6 +1369,18 @@ body {
 	.right-bottom-box button {
 		width: 70%;
 	}	
+
+	.job-link {
+		height: 30%;
+	}
+
+	.button-widget {
+		height: 30%;
+	}
+
+	.upload-resume {
+		height: 30%;
+	}
 
 }
 
